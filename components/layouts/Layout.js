@@ -5,10 +5,10 @@ function Layout() {
   const classes = UseStyles();
   //JSX
   return (
-    <div>
-      <div className={classes.root}>left sidebar</div>
-      <div>main part</div>
-      <div>right sidebar</div>
+    <div className={classes.root}>
+      <div className={classes.leftSidebar}>left sidebar</div>
+      <div className={classes.mainPart}>main part</div>
+      <div className={classes.rightSidebar}>right sidebar</div>
     </div>
   );
 }
